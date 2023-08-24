@@ -76,15 +76,15 @@ class SingleFunctionWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        ExtendButton(
-          imgUrl: "assets/images/switch2audio.png",
-          imgHieght: 20,
-          tips: CallKit_t("切到语音通话"),
-          onTap: () {
-            _switchToAudio();
-          },
-          textColor: _getTextColor(),
-        ),
+        // ExtendButton(
+        //   imgUrl: "assets/images/switch2audio.png",
+        //   imgHieght: 20,
+        //   tips: CallKit_t("切到语音通话"),
+        //   onTap: () {
+        //     _switchToAudio();
+        //   },
+        //   textColor: _getTextColor(),
+        // ),
         const SizedBox(
           height: 40,
         ),
@@ -119,15 +119,15 @@ class SingleFunctionWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        ExtendButton(
-          imgUrl: "assets/images/switch2audio.png",
-          imgHieght: 20,
-          tips: CallKit_t("切到语音通话"),
-          onTap: () {
-            _switchToAudio();
-          },
-          textColor: _getTextColor(),
-        ),
+        // ExtendButton(
+        //   imgUrl: "assets/images/switch2audio.png",
+        //   imgHieght: 20,
+        //   tips: CallKit_t("切到语音通话"),
+        //   onTap: () {
+        //     _switchToAudio();
+        //   },
+        //   textColor: _getTextColor(),
+        // ),
         const SizedBox(
           height: 20,
         ),
@@ -201,17 +201,17 @@ class SingleFunctionWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        CallState.instance.mediaType == TUICallMediaType.video
-            ? ExtendButton(
-                imgUrl: "assets/images/switch2audio.png",
-                imgHieght: 20,
-                tips: CallKit_t("切到语音通话"),
-                onTap: () {
-                  _switchToAudio();
-                },
-                textColor: _getTextColor(),
-              )
-            : const SizedBox(),
+        // CallState.instance.mediaType == TUICallMediaType.video
+        //     ? ExtendButton(
+        //         imgUrl: "assets/images/switch2audio.png",
+        //         imgHieght: 20,
+        //         tips: CallKit_t("切到语音通话"),
+        //         onTap: () {
+        //           _switchToAudio();
+        //         },
+        //         textColor: _getTextColor(),
+        //       )
+        //     : const SizedBox(),
         const SizedBox(
           width: 20,
         ),
